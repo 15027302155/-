@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset=utf-8"UTF-8" />
+	<title>宣鸣创意—影视</title>
+    <meta name="keywords" content="宣鸣创意_影视动效" />
+    <meta name="description" content="宣鸣创意立足于武汉光谷，专业从事UI设计、VIS设计、建站、影视" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <link href="../../../skin/css/bootstrap.min.css" tppabs="http://www.whxmcy.com/skin/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../../skin/css/index.min.css" tppabs="http://www.whxmcy.com/skin/css/index.min.css" rel="stylesheet" />
+    <link href="../../../skin/css/mov.css" tppabs="http://www.whxmcy.com/skin/css/mov.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../../skin/js/jquery.min.js" tppabs="http://www.whxmcy.com/skin/js/jquery.min.js" ></script>
+    <script type="text/javascript">
+    function ShowDiv(show_div,bg_div){
+      document.getElementById(show_div).style.display='block';
+      document.getElementById(bg_div).style.display='block' ;
+      var bgdiv = document.getElementById(bg_div);
+      bgdiv.style.width = document.body.scrollWidth;
+      $("#"+bg_div).height($(document).height());
+      };
+      function CloseDiv(show_div,bg_div)
+      {
+      document.getElementById(show_div).style.display='none';
+      document.getElementById(bg_div).style.display='none';
+    };
+    </script>    
+</head>
+<body>
+    <!-- 顶部 -->
+    <header>
+      <div class="header_box">
+        <div class="logo">
+          <a href ="../../../index.html" tppabs="http://www.whxmcy.com/index.html">
+            <img src="../../../skin/images/xuanming_logo.png" tppabs="http://www.whxmcy.com/skin/images/xuanming_logo.png" alt="宣鸣创意" title="宣鸣创意" class="img-responsive" />
+            </a>
+        </div>
+        <nav class="menu">
+          <ul class="list-inline">
+            <li><a href ="../../../index.html" tppabs="http://www.whxmcy.com/index.html">首页</a></li>
+            <li class="active"><a href ="../../../index.html#case" tppabs="http://www.whxmcy.com/index.html#case">案例</a></li>
+            <li><a href ="../../../index.html#fuwu" tppabs="http://www.whxmcy.com/index.html#fuwu">服务</a></li>
+            <li><a href ="../../../index.html#about" tppabs="http://www.whxmcy.com/index.html#about">关于</a></li>
+          </ul>
+        </nav>
+        <div class="hotline">
+          <a href="tel:027-87515182" title="免费咨询热线"><span>027-87515182</span></a>
+          <u></u>
+        </div>
+        <div class="menu-icon">
+  			<a href="tel:027-87515182" title="点击直拨网站建设热线"><span class="glyphicon glyphicon-earphone"></span></a>
+            <span class="glyphicon glyphicon-th-large"></span>
+        </div>
+      </div>
+    </header>
+
+    <div class="pic">
+       <img src="../../../skin/images/movies_bg12.jpg" tppabs="http://www.whxmcy.com/skin/images/movies_bg12.jpg" alt="宣鸣创意">
+    </div>
+    <div class="content">
+      <div class="yanjie">
+        <img src="../../../skin/images/movies_bg2.png" tppabs="http://www.whxmcy.com/skin/images/movies_bg2.png" alt="宣鸣创意">
+      </div>
+      <div class="show" id="content">
+        <ul>
+            
+			      <li>
+					<a onClick="ShowDiv('MyDiv1','fade')" style="cursor:pointer;">
+						<img src="../../../UpFile/201612666921313.jpg" tppabs="http://www.whxmcy.com/UpFile/201612666921313.jpg" width="533" height="433"  alt="宣鸣创意——影视动效"  />
+					</a>
+				  </li>
+			      <li>
+					<a onClick="ShowDiv('MyDiv2','fade')" style="cursor:pointer;">
+						<img src="../../../UpFile/201612666906861.jpg" tppabs="http://www.whxmcy.com/UpFile/201612666906861.jpg" width="533" height="433"  alt="宣鸣创意——影视动效"  />
+					</a>
+				  </li>
+			      <li>
+					<a onClick="ShowDiv('MyDiv3','fade')" style="cursor:pointer;">
+						<img src="../../../UpFile/201612666886493.jpg" tppabs="http://www.whxmcy.com/UpFile/201612666886493.jpg" width="533" height="433"  alt="宣鸣创意——影视动效"  />
+					</a>
+				  </li>
+			      <li>
+					<a onClick="ShowDiv('MyDiv4','fade')" style="cursor:pointer;">
+						<img src="../../../UpFile/201612666870361.jpg" tppabs="http://www.whxmcy.com/UpFile/201612666870361.jpg" width="533" height="433"  alt="宣鸣创意——影视动效"  />
+					</a>
+				  </li> 
+		
+
+        </ul>
+      </div>
+    </div>
+
+	
+	
+    <!--弹出层时背景层DIV-->
+        <div id="fade" class="black_overlay">
+        </div>
+        <div class="white_content_box">
+		
+          <div id="MyDiv1" class="white_content" >
+            <div class="whiteclose">
+              <span  onclick="CloseDiv('MyDiv1','fade')" class="whiteclose">关闭</span>
+            </div>
+            <div class="img_box">
+				<img src="../../../UpFile/201612749541189.jpg" tppabs="http://www.whxmcy.com/UpFile/201612749541189.jpg"/>
+            </div>
+          </div>
+          <div id="MyDiv2" class="white_content" >
+            <div class="whiteclose">
+              <span  onclick="CloseDiv('MyDiv2','fade')" class="whiteclose">关闭</span>
+            </div>
+            <div class="img_box">
+				<img src="../../../UpFile/201612749565049.jpg" tppabs="http://www.whxmcy.com/UpFile/201612749565049.jpg"/>
+            </div>
+          </div>
+          <div id="MyDiv3" class="white_content" >
+            <div class="whiteclose">
+              <span  onclick="CloseDiv('MyDiv3','fade')" class="whiteclose">关闭</span>
+            </div>
+            <div class="img_box">
+				<img src="../../../UpFile/201612749683065.jpg" tppabs="http://www.whxmcy.com/UpFile/201612749683065.jpg"/>
+            </div>
+          </div>
+          <div id="MyDiv4" class="white_content" >
+            <div class="whiteclose">
+              <span  onclick="CloseDiv('MyDiv4','fade')" class="whiteclose">关闭</span>
+            </div>
+            <div class="img_box">
+				<img src="../../../UpFile/201612749702877.jpg" tppabs="http://www.whxmcy.com/UpFile/201612749702877.jpg"/>
+            </div>
+          </div> 
+        </div>
+
+        <div class="footer">
+      <div class="footer_block"></div>
+      <div class="footer_box">
+        <h4>Contact</h4>
+        <p>光谷大道入口光谷8号6栋1单元920</p>
+        <p>咨询热线：027-87515182</p>
+        <p>咨询QQ：1079061133</p>
+      </div>
+    </div>
+
+</body>
+</html>

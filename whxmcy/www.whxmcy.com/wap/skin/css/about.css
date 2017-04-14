@@ -1,0 +1,54 @@
+h2,p{color: #033d51}
+h2{font-size: 0.48rem;}
+p{font-size: 0.4rem}
+.about1{width: 10.8rem;height: 7.2rem;background: url("../images/aboutbg1.jpg"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg1.jpg*/); background-size: cover;}
+.text1{float: left; background: url("../images/aboutbg_text1.png"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg_text1.png*/) no-repeat center center;background-size: cover;width: 3.21rem;height: 4.57rem;animation:mov 0.5s 0.4s  forwards ease;-webkit-animation:mov 0.5s 0.4s  forwards ease;opacity:0;}
+.text2{float: left; background: url("../images/aboutbg_text2.png"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg_text2.png*/) no-repeat center center;background-size: cover;width: 3.12rem;height: 4.57rem;animation:mov 0.5s 0.4s  forwards ease;-webkit-animation:mov 0.5s 0.4s  forwards ease;opacity:0;}
+.text3{float: left; margin-right: 0.09rem; background: url("../images/aboutbg_text3.png"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg_text3.png*/) no-repeat center center;background-size: cover;width: 3.12rem;height: 4.57rem;animation:mov1 0.5s 0.4s  forwards ease;-webkit-animation:mov1 0.5s 0.4s  forwards ease;opacity:0;}
+.about1_box{width: 9.6rem;height: 4.57rem;margin-left: 0.6rem;padding-top: 1.36rem;}
+@keyframes mov{
+    0%{transform:translate(0px,-130px); opacity:0}
+	30%{ opacity:1}
+    100%{transform:translate(0px,0px);opacity:1}
+}
+@-webkit-keyframes mov{
+    0%{-webkit-transform:translate(0px,-130px); opacity:0}
+	30%{ opacity:1}
+    100%{-webkit-transform:translate(0px,0px);opacity:1}
+}
+@keyframes mov1{
+    0%{transform:translate(0px,130px); opacity:0}
+	30%{ opacity:1}
+    100%{transform:translate(0px,0px);opacity:1}
+}
+@-webkit-keyframes mov1{
+    0%{-webkit-transform:translate(0px,130px); opacity:0}
+	30%{ opacity:1}
+    100%{-webkit-transform:translate(0px,0px);opacity:1}
+}
+.about2{width: 10.8rem;height: 4.9rem;background: url("../images/aboutbg2.jpg"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg2.jpg*/); background-size: cover;}
+.about2 h2,.about2 p{margin-left: 1.9rem;text-align: left;width: 8rem;}
+.about2 h2{height: 1.6rem;line-height: 1.6rem}
+.about2 p{height: 0.6rem;line-height: 0.6rem}
+.about3{width: 10.8rem;height: 4.61rem;background: url("../images/aboutbg3.jpg"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg3.jpg*/); background-size: cover;}
+.about4{width: 10.8rem;height: 4.62rem;background: url("../images/aboutbg4.jpg"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg4.jpg*/); background-size: cover;}
+.about5{padding-top: 1.2rem; width: 10.8rem;height: 3.41rem;background: url("../images/aboutbg5.jpg"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg5.jpg*/); background-size: cover;}
+.about6{padding-top: 0.9rem; width: 10.8rem;height: 3.7rem;background: url("../images/aboutbg6.jpg"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg6.jpg*/); background-size: cover;}
+.about7{padding-top: 1.85rem ;width: 10.8rem;height: 2.75rem;background: url("../images/aboutbg7.jpg"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg7.jpg*/); background-size: cover;}
+.about8{padding-top: 3rem; width: 10.8rem;height: 1.6rem;background: url("../images/aboutbg8.jpg"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg8.jpg*/); background-size: cover;}
+.about9{padding-top: 0.45rem; width: 10.8rem;height: 4.15rem;background: url("../images/aboutbg9.jpg"/*tpa=http://www.whxmcy.com/wap/skin/images/aboutbg9.jpg*/); background-size: cover;}
+.about4 h2,.about4 p{width: 5.3rem;text-align: center;margin: 0 auto;}
+.about4 h2{border-bottom: 0.02rem #033d51 solid;padding-top: 1.6rem}
+.about4 p{height: 0.8rem;line-height: 0.8rem}
+.about5_box{border-left: 0.03rem solid #033d51;margin-left: 1.9rem;}
+.about5_box h2{font-weight: bold; height: 0.6rem;line-height: 0;text-align: left;margin-left: 0.24rem}
+.about5_box p{margin-left: 0.24rem;font-weight: bold;font-size: 0.36rem;}
+.about6_box{margin-left: 1.9rem;}
+.about6_box .this{padding:0;width: 5.4rem;text-align: left;height: 0.7rem;line-height: 0.7rem;border-top: 0.04rem solid #033d51}
+.about6_box .that{padding:0;font-weight: bold;text-align: left;}
+.about6_box p{font-size: 0.3rem;font-weight: bold;}
+.about7 h2{padding-top: 0rem;}
+.about8 p{text-align: center; height: 0.6rem;line-height: 0.6rem; margin-left: 3.25rem; width: 4.5rem; color: #fff;font-size: 0.36rem;border-bottom: #feec57 0.01rem solid;}
+.about8 h2{text-align: center;color: #fff;padding-top: 0;height: 0.72rem;line-height: 0.72rem;}
+.about9 img{width: 2.2rem;height: 2.2rem;margin-left: 4.3rem}
+.about9 p{text-align: center;color: #333;line-height: 0.57rem}
